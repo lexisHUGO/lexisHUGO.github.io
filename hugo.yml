@@ -1,4 +1,48 @@
-baseURL: https://example.org/
+baseURL: "https://lexisHUGO.github.io/"
 languageCode: en-us
-title: My New Hugo Site
-theme: PaperMod
+title: The Retard
+theme: "PaperMod"
+enableEmoji: true
+author: "Anay Kuljeet"
+
+mainSections:
+  - blog
+  - archives
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Blogs
+      pageRef: /blog
+      weight: 20
+    - name: Archives
+      url: /archives
+      weight: 30
+
+params:
+  profileMode:
+    enabled: true
+    title: "I'm Retarded" # optional default will be site title
+    subtitle: "Test Website by Slashdot."
+    author: "hehe"
+    imageUrl: "/images/profileImg.jpg" # optional
+    imageTitle: "Profile Image" # optional
+    imageWidth: 400 # custom size
+    imageHeight: 400 # custom size
+    buttons:
+      - name: Blogs
+        url: "/blog"
+      - name: Google
+        url: https://google.com
+
+  socialIcons:
+    - name: "Linkedin"
+      url: "https://slashdot-iiserk.github.io"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@piyushkrsingh"
+    - name: "Github"
+      url: "https://github.com/iamPiyushKrSingh"
+    - name: "Instagram"
+      url: "<>"
